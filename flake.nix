@@ -24,7 +24,7 @@
             devShells = forAllSystems ({ pkgs }: {
                 default =
                 let
-                    python = pkgs.python39;
+                    python = pkgs.python310;
                 in
                 pkgs.mkShell {
                     # The Nix packages provided in the environment

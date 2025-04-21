@@ -1,7 +1,7 @@
 set shell := ["zsh", "-uc"]
 
 devenv:
-    tox devenv -e devenv .venv
+    tox devenv -e dev .venv
     pre-commit install
 
 clear:
